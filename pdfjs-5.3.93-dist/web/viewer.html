@@ -37,6 +37,7 @@ See https://github.com/adobe-type-tools/cmap-resources
 
 <script>
   window.onload = function () {
+    
     document.getElementById('getLinkButton').onclick = function(){
       var thisPageURL = window.location.href.split('#')[0]+"#page="+PDFViewerApplication.pdfViewer.currentPageNumber;
       console.log(thisPageURL);
